@@ -1,4 +1,3 @@
-17 lines (16 sloc)  608 Bytes
 
 const mongoose = require("mongoose");
 const connectMongo = async() => {
