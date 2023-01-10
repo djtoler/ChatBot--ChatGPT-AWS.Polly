@@ -23,6 +23,7 @@ const Login = (props) => {
     const [redirect, setRedirect] = useState(false)
     const [user, setUser] = useState("");
     const [gameId, setGameId] = useState();
+    const [name, setName] = useState();
     // console.log(user);
     // const [userEmail, setUserEmail] = useState(user.email);
     // const [userId, setUserId] = useState(user._id);
@@ -35,15 +36,7 @@ const Login = (props) => {
     let passGameId;
 
     const submitHandler = async () => {
-        setLoading(true);
         if (!email || !password) {
-          toast({
-            title: "Please Fill all the Feilds",
-            status: "warning",
-            duration: 5000,
-            isClosable: true,
-            position: "bottom",
-          });
           setLoading(false);
           return;
         }
@@ -53,79 +46,28 @@ const Login = (props) => {
                     "Content-type":"application/json",
                 },
             };
-            const {data} = await axios.post(
-                "http://localhost:8800/user/login",
-                {email, password},
-                config
-            );
-            setToken(data.token);
-            passToken = data.token;
-            console.log(data);
-            console.log(data.msg, '<<<------------DATAMSG');
-            console.log(typeof(data));
-            sessionStorage.setItem("userData", JSON.stringify(data))
-            setUserData(sessionStorage.getItem("userData", data));
-            currentUserData = sessionStorage.getItem("userData", data)
-            console.log(currentUserData);
-            console.log(typeof(data), '<-------------DATA');
-            console.log(data.authorizeUser.loginSucceded);
-            toast(data.authorizeUser.loginSucceded);
-            setLoading(false);
-            history.push("/success")
+
         }
         catch (error ){
             console.log(error.response.data);
-            toast({
-                title: 'Error Occured!',
-                status: 'error',
-                duration: 9000,
-                isClosable: true,
-                position: "bottom",
-            });
-            setLoading(false);
         }   
     }
     return (
         <VStack spacing="5px" color="black">
-            <FormControl id="emailLog" isRequired>
-                <FormLabel>Email</FormLabel>
-                <Input placeholder="Enter Your Email" value={email} onChange={(e) => setEmail(e.target.value)}/>
-            </FormControl>
-            <FormControl id="passwordLog" isRequired>
-                <FormLabel>Password</FormLabel>
-                <InputGroup>
+            <FormControl id="first-name" isRequired>
+                <FormLabel>Question</FormLabel>{" "}
                     <Input
-                    type={show ? "text" : "password"}
-                    placeholder="Enter Your Password"
-                    value={password}
-                    onChange={(e) => setPassword(e.target.value)} //Set password to whats entered in password field
+                        placeholder="Enter Your Question Here"
+                        onChange={(e) => setName(e.target.value)} //Set name to whats entered in name field
                     />
-                    <InputRightElement width="4.5rem">
-                    <Button h="1.75rem" size="sm" onClick={handleClick}>
-                        {show ? "Hide" : "Show"}
-                    </Button>
-                    </InputRightElement>
-                </InputGroup>
             </FormControl>
-            <Button
-                colorScheme="green"
-                width="100%"
-                style={{ marginTop: 15 }}
-                onClick={submitHandler}
-                isLoading={loading}
+            <Button 
+                colorScheme = "blue"
+                width = "50%"
+                style = {{marginTop: 15}}
+                isLoading = {loading}
             >
-                Login1
-            </Button>
-            <Button
-                variant="solid"
-                colorScheme="green"
-                width="100%"
-                onClick={() => {
-                    setEmail("notregistered@example.com");
-                    setPassword("test");
-                }}
-            >
-                Sign In Using Guest Credentials
+                Submit Question
             </Button>
         </VStack>
     );

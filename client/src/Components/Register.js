@@ -100,18 +100,29 @@ const Upload = () => {
   return (
     <div>
         <VStack spacing="5px" color="black">
-            <FormControl id="first-name" isRequired>
-                <FormLabel>Question</FormLabel>{" "}
+            <Button 
+                colorScheme = "blue"
+                width = "100%"
+                style = {{marginTop: 15}}
+                onClick = {handleSubmit}
+                isLoading = {loading}
+                m="20px 0px 15px 0px"
+            >
+                Click Here To Speak Into Mic And Ask A Question
+            </Button>
+
+            <FormControl>
                     <Input
-                        placeholder="Enter Your Question Here"
+                        placeholder="Questions Will Appear Here After You Click 'ASK' Start To Speak"
                         onChange={(e) => setName(e.target.value)} //Set name to whats entered in name field
                     />
             </FormControl>
 
             <form onSubmit={(e) => handleSubmit(e)}></form>
+            
             <Button 
                 colorScheme = "blue"
-                width = "100%"
+                width = "50%"
                 style = {{marginTop: 15}}
                 onClick = {handleSubmit}
                 isLoading = {loading}
