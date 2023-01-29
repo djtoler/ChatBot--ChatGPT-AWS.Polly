@@ -108,7 +108,7 @@ const Upload = () => {
                 isLoading = {loading}
                 m="20px 0px 15px 0px"
             >
-                Click Here To Speak Into Mic And Ask A Question
+                Click Here To Ask A Question
             </Button>
 
             <FormControl>
