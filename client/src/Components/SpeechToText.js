@@ -9,7 +9,7 @@ import { Input, InputGroup, InputRightElement } from "@chakra-ui/input";
 import { VStack } from "@chakra-ui/layout";
 
 
-const Upload = () => {
+const SpeechToText = () => {
   const [file, setFile] = useState("");
   const [image, setImage] = useState("");
   const [uploadedImg, setUploadedImg] = useState("");
@@ -100,39 +100,19 @@ const Upload = () => {
   return (
     <div>
         <VStack spacing="5px" color="black">
-            <Button 
-                colorScheme = "blue"
-                width = "100%"
-                style = {{marginTop: 15}}
-                onClick = {handleSubmit}
-                isLoading = {loading}
-                m="20px 0px 15px 0px"
-            >
-                Click Here To Ask A Question
-            </Button>
-
+            <Button colorScheme = "blue"width = "100%"style = {{marginTop: 15}}onClick = {handleSubmit}isLoading = {loading}m="20px 0px 15px 0px">Click Here To Ask A Question</Button>
+            
             <FormControl>
-                    <Input
-                        placeholder="Questions Will Appear Here After You Click 'ASK' Start To Speak"
-                        onChange={(e) => setName(e.target.value)} //Set name to whats entered in name field
-                    />
+              <Input placeholder="Questions Will Appear Here"    onChange={(e) => setName(e.target.value)} />
             </FormControl>
 
             <form onSubmit={(e) => handleSubmit(e)}></form>
             
-            <Button 
-                colorScheme = "blue"
-                width = "50%"
-                style = {{marginTop: 15}}
-                onClick = {handleSubmit}
-                isLoading = {loading}
-            >
-                Submit Question
-            </Button>
+            <Button colorScheme = "blue"width = "50%"style = {{marginTop: 15}} onClick = {handleSubmit}isLoading = {loading}>Submit Question</Button>
         </VStack>
     </div>
 
   );
 };
 
-export default Upload;
+export default SpeechToText;

@@ -1,17 +1,13 @@
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import React from "react";
-import SuccessfulLogin from './Pages/SuccessfulLogin';
-import Welcome from "./Pages/Welcome";
-import UserLogin from './Pages/UserLogin';
+import LandingPage from "./Pages/LandingPage";
 
 
 function App() {
   return (
     <div className="App">
-      <Route path="/" component={Welcome} exact />
-      <Route path="/login" component={UserLogin} exact/>
-      <Route path="/success" component={SuccessfulLogin} exact/>
+      <Route path="/" component={LandingPage} exact />
     </div>
   );
 }

@@ -5,7 +5,7 @@ import {VStack} from '@chakra-ui/layout';
 import React, { useState, useRef, useEffect } from 'react';
 import axios from "axios";
 
-const Login = (props) => {
+const TextToSpeech = (props) => {
     const [loading, setLoading] = useState();
     const [prompt, setPrompt] = useState("");
     const [textQuestion, setTextQuestion] = useState();
@@ -55,4 +55,4 @@ const Login = (props) => {
         </VStack> 
     );
 }
-export default Login
+export default TextToSpeech
