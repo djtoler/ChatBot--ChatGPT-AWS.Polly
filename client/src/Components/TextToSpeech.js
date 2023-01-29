@@ -50,8 +50,6 @@ const TextToSpeech = (props) => {
             </form>
             <p>{JSON.stringify(responseData)}</p>
             {audioReady} <audio id="audio" src={responseAudio} controls></audio> 
-            
-            
         </VStack> 
     );
 }
