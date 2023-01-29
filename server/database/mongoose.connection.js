@@ -1,8 +1,8 @@
-
+require('dotenv').config();
 const mongoose = require("mongoose");
 const connectMongo = async() => {
     try {
-        const mongoConnection = await mongoose.connect('mongodb+srv://djtoler:alphagpc@cluster0.rwafh.mongodb.net/LinkedInMMG?retryWrites=true&w=majority', {
+        const mongoConnection = await mongoose.connect('mongodb+srv://djtoler:alphagpc@cluster0.rwafh.mongodb.net/ChatGPTDB?retryWrites=true&w=majority', {
             useNewUrlParser: true,
             useUnifiedTopology: true,
         });
