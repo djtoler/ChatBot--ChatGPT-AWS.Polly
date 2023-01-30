@@ -3,6 +3,7 @@ import { Button } from "@chakra-ui/button";
 import { FormControl } from "@chakra-ui/form-control";
 import { Input } from "@chakra-ui/input";
 import { VStack } from "@chakra-ui/layout";
+import Recorder from "../Components/Recorder";
 
 
 const SpeechToText = () => {
@@ -13,15 +14,12 @@ const SpeechToText = () => {
   return (
     <div>
         <VStack spacing="5px" color="black">
-            <Button colorScheme = "blue"width = "100%"style = {{marginTop: 15}}onClick = {handleSubmit}isLoading = {loading}m="20px 0px 15px 0px">Click Here To Ask A Question</Button>
-            
-            <FormControl>
-              <Input placeholder="Questions Will Appear Here" onChange={(e) => setQuestion(e.target.value)} />
-            </FormControl>
-
+            <br/><br/>
+            <div style={{ position: "absolute", right: 30, color:"white" }}>
+              <Recorder />
+            </div>
             <form onSubmit={(e) => handleSubmit(e)}></form>
-            
-            <Button colorScheme = "blue"width = "50%"style = {{marginTop: 15}} onClick = {handleSubmit}isLoading = {loading}>Submit Question</Button>
+            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
         </VStack>
     </div>
 

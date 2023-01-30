@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "deep-flash-374106",
+  "private_key_id": "fdc02581539d541c6bda251b3d6d8452e240eace",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC4IXIxbz4t1KL9\nVB5rj3bv1F8USIOCYf++78EteXxN11cMdxLUcqzqjjEEwNUEF8yl5EXE4LkdJ+VD\n5hqPJqZ4aWk40NhJv8y7uoEvw92woQyje/88aRb5wufP6NJrbijzKORTuW5LjpXi\n688QsT0TAmU7f4j5+6rtOjPGtp37zzD5Nr6EnFEnMjq9iukJK+Kec6aeBxP7KbKa\n4dHYpPU1UmbHobJuAiIiZaCEsAGtL2skLr6yB42KdKGpAFJL69e3Hi6GFA8uFHIy\nvaVR2ZVuJqUuzl4i+dUgIEaoYJHmWIXuuR3wS6l5KAPBwVx/0ISiL8ZUffNNwdi1\nMF5S5sQfAgMBAAECggEAAixW4jF7bOQNFmtXPpK/Zx49Dwq6DqBkedbvkz9TUcHg\nY6PGI57E3rHV70XtXbKANlcG4cd7N9ZgNNhy6Myee15XIRYJ73jljDOr0aoApFSK\nRyWwAgEFheYggUowrZbrwc7yPvC51gd1SmvZEkvdOiu1kSm0rqqjPlCJCufd3npy\n64jI+42jbGUFSp6LINLfUcR6a8bbfYMPbyq4Uo1yQ+b0QRQ373Vsvg+x+SrVqhvf\n300L5DHR4hHq7QwxdJJGSEZfckLTPRQm/cRzK6ZyA8SNH6Hs+piwFbuAJJcT+LRN\nV8eHyNgBgeycfdD1vjQC8djvT5gySl/clV8tS1aWFQKBgQDfIc3oePLZZa5QDZx9\n02CWJ1nBYBrRMv9nTC/xNS0tWGL3fJS20rvw5SfR8x0UCJer6OPKi6E7ijcG/e62\nMzGBfBJTQ2bQ8LBh9KWnEa7WH/jZZzPJnNMbaJpRjgwGoxlXqVawMw3mWpt52ZEj\nBngGvlpQwM/qJZhRnV8Xy3o0uwKBgQDTQOs64JjDCgPFvQ8aKwmjS/o54lHHNdzd\n2VE9Yi3e6kRGaIP1ly71VulmXFo5SWZGNN2sFfJ1Hpb3LxVqMvae3FbpcpOX9m91\nYN1EjBWtMoWJhrf/v68FswboqWYQjCI0sqTuXCxFNgIO+mhNm9jbRK4wEJ2w7oY2\nGGSqJNYp7QKBgCbOdEdIMcRJgOV/WIYxqwyyT1PoaQGVQwIuJ/BldTP7uUqdqieZ\nwwIEeMZ058vCKs7FNEjXu/Tk9ukKZOffQ27nqzA7+rfABI0kxWKnGqc27EqzPjiE\nQ9ryeFRSxhipaRDr7J28Y2B6xauNgUZ8K4fQt1hwEDkCzNj068LxqpFdAoGATnbw\naB//3YGcwRdlwpx1qfeQa2uKYGm7LZOIPzp2OzPcRCKR0Ohkgq/TZTesM1b16+G6\n7C4Crkm8XPdaBuYDACJrDa6G74yS/ZAK32kArCH1w40MTqvNwFosmMJCrKbAFb68\nz+PgdZyHyzRrBVh7hYXPBP9G8u7FXtZUnXWtLkkCgYBL9ZJDnNlDkuYBDGYNwMDs\nWdIMqlUalEnSFr/O4e5M0YvH3j9+ohFuLYYfowTJnh1SDnca6jPQY5npFhnNseT+\nK5ZZ0wgS6CeD7U6ALbCWMe6b9N47ewl5bROHVmU7zxHAQFVACFYb171GnLwSfKLF\nJJfiaSKxl8gd90E6/PPUww==\n-----END PRIVATE KEY-----\n",
+  "client_email": "chatgpt-tts@deep-flash-374106.iam.gserviceaccount.com",
+  "client_id": "111300228592400502653",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/chatgpt-tts%40deep-flash-374106.iam.gserviceaccount.com"
+}

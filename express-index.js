@@ -1,13 +1,11 @@
 require('dotenv').config();
-console.log(process.env)
-
-
+console.log(process.env);
 const express = require("express");
 const app = express();
-const connectMongoDB = require("./database/mongoose.connection.js");
+const connectMongoDB = require("./server/database/mongoose.connection.js");
 const cors = require("cors");
 const bodyParser = require("body-parser");
-const textInputPrompt = require("./routes/textInputPrompt")
+const textInputPrompt = require("./server/routes/textInputPrompt")
 
 connectMongoDB();
 
