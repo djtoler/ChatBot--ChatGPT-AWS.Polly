@@ -20,24 +20,19 @@ Speech-to-text technology converts spoken words into written text, allowing peop
 
 ## **Code Explanations:**
 
-
- ### [Front End](#front-end-code)
+### [***Front End***](#front-end-code)
+![home.png](https://github.com/djtoler/ChatBot--ChatGPT-AWS.Polly/blob/main/home.PNG)
  
-#### [Front End Diagram](#front-end-diagram)
+- #### [Front End Diagram](#front-end-diagram)
 
+- #### [Recording Our Users Question to MP3](Accessibility%20for%20Visually%20Impaired%20Users%20a36a010f9e694a919067110abd7824be/Recording%20Our%20Users%20Question%20to%20MP3%203e76a117f9ce4c3198e2ecf953f167ee.md)
 
-![Untitled](Accessibility%20for%20Visually%20Impaired%20Users%20a36a010f9e694a919067110abd7824be/Untitled.png)
-
-Front End Diagram
-(#front-end-diagram)
-
-[Recording Our Users Question to MP3](Accessibility%20for%20Visually%20Impaired%20Users%20a36a010f9e694a919067110abd7824be/Recording%20Our%20Users%20Question%20to%20MP3%203e76a117f9ce4c3198e2ecf953f167ee.md)
-
-[***Transcribing Our Users Question From MP3 to Text***](Accessibility%20for%20Visually%20Impaired%20Users%20a36a010f9e694a919067110abd7824be/Transcribing%20Our%20Users%20Question%20From%20MP3%20to%20Text%20bc8d6af347e444c29890f1ba47e0ed03.md)
+- #### [***Transcribing Our Users Question From MP3 to Text***](Accessibility%20for%20Visually%20Impaired%20Users%20a36a010f9e694a919067110abd7824be/Transcribing%20Our%20Users%20Question%20From%20MP3%20to%20Text%20bc8d6af347e444c29890f1ba47e0ed03.md)
 
 ## ***Back End***
+### [***Back End***](#back-end-code)
 
-![Untitled](Accessibility%20for%20Visually%20Impaired%20Users%20a36a010f9e694a919067110abd7824be/Untitled%201.png)
+![chatserver](https://github.com/djtoler/ChatBot--ChatGPT-AWS.Polly/blob/main/chatserver.PNG)
 
 [Back End Diagram](Accessibility%20for%20Visually%20Impaired%20Users%20a36a010f9e694a919067110abd7824be/Back%20End%20Diagram%20d67e9efc66e241fe83f814f522673dd4.md)
 
@@ -50,7 +45,7 @@ Front End Diagram
 [Saving Our Users Questions and Answers To Our Database](Accessibility%20for%20Visually%20Impaired%20Users%20a36a010f9e694a919067110abd7824be/Saving%20Our%20Users%20Questions%20and%20Answers%20To%20Our%20Data%2015330cb576194034b091c781a7979982.md)
 
 # Front End Code
-![Untitled](Accessibility%20for%20Visually%20Impaired%20Users%20a36a010f9e694a919067110abd7824be/Untitled%202.png)
+# Back End Code
 
 
 
