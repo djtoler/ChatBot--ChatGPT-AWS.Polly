@@ -37,7 +37,7 @@ Speech-to-text technology converts spoken words into written text, allowing peop
 ---
 ## [***Back End***](#back-end-code)
 
-![chatserver1](https://github.com/djtoler/ChatBot--ChatGPT-AWS.Polly/blob/main/chatserver1.PNG)
+![chatserver1](https://github.com/djtoler/ChatBot--ChatGPT-AWS.Polly/blob/main/server2.PNG)
 
 - [Back End Diagram](Accessibility%20for%20Visually%20Impaired%20Users%20a36a010f9e694a919067110abd7824be/Back%20End%20Diagram%20d67e9efc66e241fe83f814f522673dd4.md)
 
