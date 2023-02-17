@@ -39,11 +39,11 @@ Speech-to-text technology converts spoken words into written text, allowing peop
 
 ![chatserver1](https://github.com/djtoler/ChatBot--ChatGPT-AWS.Polly/blob/main/chatserver1.PNG)
 
-[Back End Diagram](Accessibility%20for%20Visually%20Impaired%20Users%20a36a010f9e694a919067110abd7824be/Back%20End%20Diagram%20d67e9efc66e241fe83f814f522673dd4.md)
+- [Back End Diagram](Accessibility%20for%20Visually%20Impaired%20Users%20a36a010f9e694a919067110abd7824be/Back%20End%20Diagram%20d67e9efc66e241fe83f814f522673dd4.md)
 
-[Sending Our Users Text Question to OpenAI and Getting a Text Answer Back](Accessibility%20for%20Visually%20Impaired%20Users%20a36a010f9e694a919067110abd7824be/Sending%20Our%20Users%20Text%20Question%20to%20OpenAI%20and%20Gett%205622eed243eb4358b6cd74bed964c90d.md)
+- [Sending Our Users Text Question to OpenAI and Getting a Text Answer Back](Accessibility%20for%20Visually%20Impaired%20Users%20a36a010f9e694a919067110abd7824be/Sending%20Our%20Users%20Text%20Question%20to%20OpenAI%20and%20Gett%205622eed243eb4358b6cd74bed964c90d.md)
 
-[Converting Our Text Answer To MP3 and Returning It Back To Our User](Accessibility%20for%20Visually%20Impaired%20Users%20a36a010f9e694a919067110abd7824be/Converting%20Our%20Text%20Answer%20To%20MP3%20and%20Returning%20It%20bfcfe9afdeb94eea91411c8b68d99b05.md)
+- [Converting Our Text Answer To MP3 and Returning It Back To Our User](Accessibility%20for%20Visually%20Impaired%20Users%20a36a010f9e694a919067110abd7824be/Converting%20Our%20Text%20Answer%20To%20MP3%20and%20Returning%20It%20bfcfe9afdeb94eea91411c8b68d99b05.md)
 
 ---
 
@@ -51,7 +51,7 @@ Speech-to-text technology converts spoken words into written text, allowing peop
 
 ![chatserverdb2](https://github.com/djtoler/ChatBot--ChatGPT-AWS.Polly/blob/main/chatserverdb2.PNG)
 
-[Saving Our Users Questions and Answers To Our Database](Accessibility%20for%20Visually%20Impaired%20Users%20a36a010f9e694a919067110abd7824be/Saving%20Our%20Users%20Questions%20and%20Answers%20To%20Our%20Data%2015330cb576194034b091c781a7979982.md)
+- [Saving Our Users Questions and Answers To Our Database](Accessibility%20for%20Visually%20Impaired%20Users%20a36a010f9e694a919067110abd7824be/Saving%20Our%20Users%20Questions%20and%20Answers%20To%20Our%20Data%2015330cb576194034b091c781a7979982.md)
 
 ---
 
