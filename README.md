@@ -1,25 +1,8 @@
+![openai3.png](https://github.com/djtoler/ChatBot--ChatGPT-AWS.Polly/blob/main/openai3.png)
+
 # Accessibility for Visually Impaired Users
-
-- [Running the Project](#running-the-project)
-  * [Instructions](#instructions)
-
-- [Project Overview](#project-overview)
- 
-- [Problem Statement](#problem-statement)
-   
-- [Code Explinations](#code-explinations)
-  * [Front End](#front-end)
-    + [Front End Diagram](#front-end-diagram)
-    + [Recording Our Users Question to MP3](#recording-our-users-questions-to-mp3)
-    + [Transcribing Our Users Question from MP3 to Text](#transcribing-our-users-question-from-to-mp3-to-text)
-  * [Back End](#back-end)
-    + [Back End Diagram](#front-end-diagram)
-    + [Sending Our Users Text Question to OpenAI and Getting a Text Answer Back](#sending-our-users-text-question-to-openAI-and-getting-a-text-answer-back)
-    + [Converting Our Text Answer To MP3 and Returning It Back To Our User](#converting-our-text-answer-to-MP3-and-returning-it-back-to-our-user)
-  * [Database](#database)
-    + [Saving Our Users Questions and Answers To Our Database](#saving-our-users-questions-and-answers-to-our-database)
   
-![openai3.png](Accessibility%20for%20Visually%20Impaired%20Users%20a36a010f9e694a919067110abd7824be/openai3.png)
+## Running the Project:
 
 ## Project Overview:
 
@@ -37,13 +20,18 @@ Speech-to-text technology converts spoken words into written text, allowing peop
 
 ## **Code Explanations:**
 
-## ***Front End***
+
+ ### [Front End](#front-end-code)
+ 
+#### [Front End Diagram](#front-end-diagram)
+
 
 ![Untitled](Accessibility%20for%20Visually%20Impaired%20Users%20a36a010f9e694a919067110abd7824be/Untitled.png)
 
-[Front End Diagram](Accessibility%20for%20Visually%20Impaired%20Users%20a36a010f9e694a919067110abd7824be/Front%20End%20Diagram%20d79f410d01e440c993576bea2f0b4f6c.md)
+Front End Diagram
+(#front-end-diagram)
 
-[*Recording Our Users Question to MP3*](Accessibility%20for%20Visually%20Impaired%20Users%20a36a010f9e694a919067110abd7824be/Recording%20Our%20Users%20Question%20to%20MP3%203e76a117f9ce4c3198e2ecf953f167ee.md)
+[Recording Our Users Question to MP3](Accessibility%20for%20Visually%20Impaired%20Users%20a36a010f9e694a919067110abd7824be/Recording%20Our%20Users%20Question%20to%20MP3%203e76a117f9ce4c3198e2ecf953f167ee.md)
 
 [***Transcribing Our Users Question From MP3 to Text***](Accessibility%20for%20Visually%20Impaired%20Users%20a36a010f9e694a919067110abd7824be/Transcribing%20Our%20Users%20Question%20From%20MP3%20to%20Text%20bc8d6af347e444c29890f1ba47e0ed03.md)
 
@@ -61,22 +49,9 @@ Speech-to-text technology converts spoken words into written text, allowing peop
 
 [Saving Our Users Questions and Answers To Our Database](Accessibility%20for%20Visually%20Impaired%20Users%20a36a010f9e694a919067110abd7824be/Saving%20Our%20Users%20Questions%20and%20Answers%20To%20Our%20Data%2015330cb576194034b091c781a7979982.md)
 
+# Front End Code
 ![Untitled](Accessibility%20for%20Visually%20Impaired%20Users%20a36a010f9e694a919067110abd7824be/Untitled%202.png)
 
-# Front End Diagram
 
-![Untitled](Front%20End%20Diagram%20d79f410d01e440c993576bea2f0b4f6c/Untitled.png)
 
-The picture below is a screenshot of our UI with the different components laid out. 
 
-***Number 1*** is the Background Image component. 
-
-***Number 2*** is the Text To Speech & Speech To Text Conversion Form Component
-
-***Number 3*** is the Conversion Form Header 
-
-***Number 4*** is the Audio Instructions Component
-
-![Untitled](Front%20End%20Diagram%20d79f410d01e440c993576bea2f0b4f6c/Untitled%201.png)
-
-![Untitled](Front%20End%20Diagram%20d79f410d01e440c993576bea2f0b4f6c/Untitled%202.png)
