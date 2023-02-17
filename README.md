@@ -4,11 +4,15 @@
   
 ## Running the Project:
 
+---
+
 ## Project Overview:
 
 This application was specifically built as a prototype to address the problem of new technologies not always having assistive or accessibility features for disabled individuals 
 
 The OpenAI API is used as an example of how data returned from API endpoints can be transformed using text-to-speech and speech-to-text services, increasing accessibility for people with disabilities and making digital products and services more usable for everyone
+
+---
 
 ## Problem Statement:
 
@@ -20,7 +24,7 @@ Speech-to-text technology converts spoken words into written text, allowing peop
 
 ## **Code Explanations:**
 
-### [***Front End***](#front-end-code)
+## [***Front End***](#front-end-code)
 ![home.png](https://github.com/djtoler/ChatBot--ChatGPT-AWS.Polly/blob/main/home.PNG)
  
 - #### [Front End Diagram](#front-end-diagram)
@@ -28,17 +32,18 @@ Speech-to-text technology converts spoken words into written text, allowing peop
 - #### [Recording Our Users Question to MP3](Accessibility%20for%20Visually%20Impaired%20Users%20a36a010f9e694a919067110abd7824be/Recording%20Our%20Users%20Question%20to%20MP3%203e76a117f9ce4c3198e2ecf953f167ee.md)
 
 - #### [***Transcribing Our Users Question From MP3 to Text***](Accessibility%20for%20Visually%20Impaired%20Users%20a36a010f9e694a919067110abd7824be/Transcribing%20Our%20Users%20Question%20From%20MP3%20to%20Text%20bc8d6af347e444c29890f1ba47e0ed03.md)
+---
+## [***Back End***](#back-end-code)
 
-## ***Back End***
-### [***Back End***](#back-end-code)
-
-![chatserver](https://github.com/djtoler/ChatBot--ChatGPT-AWS.Polly/blob/main/chatserver.PNG)
+![chatserver1](https://github.com/djtoler/ChatBot--ChatGPT-AWS.Polly/blob/main/chatserver1.PNG)
 
 [Back End Diagram](Accessibility%20for%20Visually%20Impaired%20Users%20a36a010f9e694a919067110abd7824be/Back%20End%20Diagram%20d67e9efc66e241fe83f814f522673dd4.md)
 
 [Sending Our Users Text Question to OpenAI and Getting a Text Answer Back](Accessibility%20for%20Visually%20Impaired%20Users%20a36a010f9e694a919067110abd7824be/Sending%20Our%20Users%20Text%20Question%20to%20OpenAI%20and%20Gett%205622eed243eb4358b6cd74bed964c90d.md)
 
 [Converting Our Text Answer To MP3 and Returning It Back To Our User](Accessibility%20for%20Visually%20Impaired%20Users%20a36a010f9e694a919067110abd7824be/Converting%20Our%20Text%20Answer%20To%20MP3%20and%20Returning%20It%20bfcfe9afdeb94eea91411c8b68d99b05.md)
+
+---
 
 ## ***Database***
 
