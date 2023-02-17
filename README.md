@@ -49,7 +49,7 @@ Speech-to-text technology converts spoken words into written text, allowing peop
 
 ## [***Database***](#database-code)
 
-![chatserverdb1](https://github.com/djtoler/ChatBot--ChatGPT-AWS.Polly/blob/main/chatserverdb1.PNG)
+![chatserverdb2](https://github.com/djtoler/ChatBot--ChatGPT-AWS.Polly/blob/main/chatserverdb2.PNG)
 
 [Saving Our Users Questions and Answers To Our Database](Accessibility%20for%20Visually%20Impaired%20Users%20a36a010f9e694a919067110abd7824be/Saving%20Our%20Users%20Questions%20and%20Answers%20To%20Our%20Data%2015330cb576194034b091c781a7979982.md)
 
