@@ -66,8 +66,8 @@ Speech-to-text technology converts spoken words into written text, allowing peop
 ### Transcribing Questions From MP3 to Text
 
 # Back End Code
-### [Back End Diagram](Accessibility%20for%20Visually%20Impaired%20Users%20a36a010f9e694a919067110abd7824be/Back%20End%20Diagram%20d67e9efc66e241fe83f814f522673dd4.md)
-### Sending Our Users Text Question to OpenAI and Getting a Text Answer Back
+### [Back End Diagram](https://github.com/djtoler/ChatBot--ChatGPT-AWS.Polly/blob/main/assets/mds/Back%20End%20Diagram.md)
+### [Sending Our Users Text Question to OpenAI and Getting a Text Answer Back](https://github.com/djtoler/ChatBot--ChatGPT-AWS.Polly/blob/main/assets/mds/Sending%20Our%20Users%20Text%20Question%20to%20OpenAI%20and%20Getting%20a%20Text%20Answer%20Back.md)
 ### Converting Our Text Answer To MP3 and Returning It Back To Our User
 
 # Database Code
