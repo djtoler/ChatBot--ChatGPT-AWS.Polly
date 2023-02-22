@@ -2,7 +2,7 @@ import MicRecorder from "mic-recorder-to-mp3"
 import { useEffect, useState, useRef } from "react"
 import axios from "axios"
 import { Button } from "@chakra-ui/button";
-import TextToSpeech from "./TextToSpeech";
+
 
 const assembly = axios.create({
     baseURL: "https://api.assemblyai.com/v2",
@@ -26,6 +26,11 @@ const Recorder = () => {
     const [responseData, setResponseData] = useState();
     const [responseAudio, setResponseAudio] = useState("");
     const [audioReady, setAudioReady] = useState(false);
+    const [uploadURL, setUploadURL] = useState("");
+    const [transcriptID, setTranscriptID] = useState("");
+    const [transcriptData, setTranscriptData] = useState("");
+    const [transcript, setTranscript] = useState("");
+    const [isLoading, setIsLoading] = useState(false);
     const config = { headers: { "Content-type": "application/json" }};
 
     useEffect(() => {
@@ -52,11 +57,7 @@ const Recorder = () => {
         .catch((e) => console.log(e))
     }
 
-  const [uploadURL, setUploadURL] = useState("")
-  const [transcriptID, setTranscriptID] = useState("")
-  const [transcriptData, setTranscriptData] = useState("")
-  const [transcript, setTranscript] = useState("")
-  const [isLoading, setIsLoading] = useState(false)
+
 
   // Upload the Audio File and get the Upload URL
   useEffect(() => {
@@ -91,22 +92,6 @@ const Recorder = () => {
     }
   }
 
-  const handleChange = () => {setPrompt(transcript)};
-  const handleSubmit = async () => {
-      let prompt = transcript
-      console.log(prompt);
-      console.log(`Hello, ${prompt}!`);
-      const { data } = await axios.post(
-        "http://localhost:9000/user-input",
-        { prompt }, config
-      );
-      setResponseData(data.answer); 
-      console.log(data.answer);
-      setResponseAudio(data.mp3Answer);
-      console.log(data.mp3Answer);
-      setAudioReady(true);
-  };  
-
   // Periodically check the status of the Transcript
   useEffect(() => {
     const interval = setInterval(() => {
@@ -120,9 +105,11 @@ const Recorder = () => {
     return () => clearInterval(interval)
   },)
 
-
-  
-  
+  const textToSpeech = async () => {
+      let prompt = transcript
+      const { data } = await axios.post("http://localhost:9000/user-input",{ prompt }, config);
+      setResponseAudio(data.mp3Answer);
+  };  
   
     return (
         <div>
@@ -141,7 +128,7 @@ const Recorder = () => {
             <div style={{ border: "2px solid yellow", textAlign: "center"}}>
                 <div style={{textAlign: "center", marginTop: '5px' }}></div>
                 <input style={{textAlign: "center", margin: "auto", marginTop: '15px'}} type='text' value={transcript} placeholder='Answer Pending....' onChange={(e) => setTranscript(e.target.value)} />
-                <Button colorScheme = "blue"width = "80%"style = {{marginTop: 15}} isLoading = {isLoading} onClick={handleSubmit}>Answer</Button>
+                <Button colorScheme = "blue"width = "80%"style = {{marginTop: 15}} isLoading = {isLoading} onClick={textToSpeech}>Answer</Button>
                 <audio src={responseAudio} controls />
                 <br/><br/>
             </div>
