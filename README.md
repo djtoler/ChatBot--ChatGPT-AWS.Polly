@@ -1,4 +1,4 @@
-![openai3.png](https://github.com/djtoler/ChatBot--ChatGPT-AWS.Polly/blob/main/openai3.png)
+![openai3.png](https://github.com/djtoler/ChatBot--ChatGPT-AWS.Polly/blob/main/assets/openai3.png)
 
 # Accessibility for Visually Impaired Users
   
@@ -27,7 +27,7 @@ Speech-to-text technology converts spoken words into written text, allowing peop
 ## **Code Explanations:**
 
 ## [***Front End***](#front-end-code)
-![home.png](https://github.com/djtoler/ChatBot--ChatGPT-AWS.Polly/blob/main/home_50_1_1_50.png)
+![home.png](https://github.com/djtoler/ChatBot--ChatGPT-AWS.Polly/blob/main/assets/frontend-landing-page.png)
  
 - #### [Front End Diagram ](#front-end-diagram)
 
@@ -37,7 +37,7 @@ Speech-to-text technology converts spoken words into written text, allowing peop
 ---
 ## [***Back End***](#back-end-code)
 
-![chatserver1](https://github.com/djtoler/ChatBot--ChatGPT-AWS.Polly/blob/main/server2_501.PNG)
+![chatserver1](https://github.com/djtoler/ChatBot--ChatGPT-AWS.Polly/blob/main/assets/backend-directory-colored_1_51.png)
 
 - [Back End Diagram ](#back-end-diagram)
 
@@ -49,7 +49,7 @@ Speech-to-text technology converts spoken words into written text, allowing peop
 
 ## [***Database***](#database-code)
 
-![chatserverdb2](https://github.com/djtoler/ChatBot--ChatGPT-AWS.Polly/blob/main/chatserverdb2.PNG)
+![chatserverdb2](https://github.com/djtoler/ChatBot--ChatGPT-AWS.Polly/blob/main/assets/backend-database-db-snapshot.PNG)
 
 - [Saving Our Users Questions and Answers To Our Database ](#saving-our-users-questions-and-answers-to-our-database)
 
