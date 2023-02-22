@@ -56,12 +56,17 @@ Speech-to-text technology converts spoken words into written text, allowing peop
 ---
 
 # Front End Code
+
+---
+
 ### Front End Diagram
+
+
 ### Recording Users Question to MP3
 ### Transcribing Questions From MP3 to Text
 
 # Back End Code
-### Back End Diagram
+### [Back End Diagram](Accessibility%20for%20Visually%20Impaired%20Users%20a36a010f9e694a919067110abd7824be/Back%20End%20Diagram%20d67e9efc66e241fe83f814f522673dd4.md)
 ### Sending Our Users Text Question to OpenAI and Getting a Text Answer Back
 ### Converting Our Text Answer To MP3 and Returning It Back To Our User
 
