@@ -26,52 +26,53 @@ Speech-to-text technology converts spoken words into written text, allowing peop
 
 ## **Code Explanations:**
 
-## [***Front End***](#front-end-code)
+<!-- ----------------------------------------------------------------------------------------------------- -->
+## Front End Code
 ![home.png](https://github.com/djtoler/ChatBot--ChatGPT-AWS.Polly/blob/main/assets/frontend-landing-page.png)
- 
-- #### [Front End Diagram ](#front-end-diagram)
 
-- #### [Recording Our Users Question to MP3 ](#recording-users-question-to-mp3)
 
-- #### [Transcribing Our Users Question From MP3 to Text ](#transcribing-questions-from-mp3-to-text)
----
-## [***Back End***](#back-end-code)
+- ### [Front End Diagram](https://github.com/djtoler/ChatBot--ChatGPT-AWS.Polly/blob/main/assets/mds/Front%20End%20Diagram.md)
+  
+- ### [Recording Users Question to MP3](https://github.com/djtoler/ChatBot--ChatGPT-AWS.Polly/blob/main/assets/mds/Recording%20Our%20Users%20Question%20to%20MP3.md)
 
+- ### [Transcribing Questions From MP3 to Text](https://github.com/djtoler/ChatBot--ChatGPT-AWS.Polly/blob/main/assets/mds/Transcribing%20Our%20Users%20Question%20From%20MP3%20to%20Text.md)
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ----------------------------------------------------------------------------------------------------- -->
+## Back End Code
 ![chatserver1](https://github.com/djtoler/ChatBot--ChatGPT-AWS.Polly/blob/main/assets/backend-directory-colored_1_51.png)
 
-- [Back End Diagram ](#back-end-diagram)
+- ### [Back End Diagram](https://github.com/djtoler/ChatBot--ChatGPT-AWS.Polly/blob/main/assets/mds/Back%20End%20Diagram.md)
+  
+- ### [Sending Our Users Text Question to OpenAI and Getting a Text Answer Back](https://github.com/djtoler/ChatBot--ChatGPT-AWS.Polly/blob/main/assets/mds/Sending%20Our%20Users%20Text%20Question%20to%20OpenAI%20and%20Getting%20a%20Text%20Answer%20Back.md)
+  
+- ### [Converting Our Text Answer To MP3 and Returning It Back To Our User](https://github.com/djtoler/ChatBot--ChatGPT-AWS.Polly/blob/main/assets/mds/Converting%20Our%20Text%20Answer%20To%20MP3%20and%20Returning%20It%20Back%20To%20Our%20User.md)
 
-- [Sending Our Users Text Question to OpenAI and Getting a Text Answer Back ](#sending-our-users-text-question-to-openai-and-getting-a-text-answer-back)
 
-- [Converting Our Text Answer To MP3 and Returning It Back To Our User ](#converting-our-text-answer-to-mp3-and-returning-it-back-to-our-user)
 
----
 
-## [***Database***](#database-code)
 
+
+
+
+
+
+
+<!-- ----------------------------------------------------------------------------------------------------- -->
+## Database Code
 ![chatserverdb2](https://github.com/djtoler/ChatBot--ChatGPT-AWS.Polly/blob/main/assets/backend-database-db-snapshot.PNG)
 
-- [Saving Our Users Questions and Answers To Our Database ](#saving-our-users-questions-and-answers-to-our-database)
-
----
-
-# Front End Code
-![home.png](https://github.com/djtoler/ChatBot--ChatGPT-AWS.Polly/blob/main/assets/frontend-landing-page.png)
----
-
-### Front End Diagram
-### Recording Users Question to MP3
-### Transcribing Questions From MP3 to Text
-
-# Back End Code
-![chatserver1](https://github.com/djtoler/ChatBot--ChatGPT-AWS.Polly/blob/main/assets/backend-directory-colored_1_51.png)
-
-### [Back End Diagram](https://github.com/djtoler/ChatBot--ChatGPT-AWS.Polly/blob/main/assets/mds/Back%20End%20Diagram.md)
-### [Sending Our Users Text Question to OpenAI and Getting a Text Answer Back](https://github.com/djtoler/ChatBot--ChatGPT-AWS.Polly/blob/main/assets/mds/Sending%20Our%20Users%20Text%20Question%20to%20OpenAI%20and%20Getting%20a%20Text%20Answer%20Back.md)
-### Converting Our Text Answer To MP3 and Returning It Back To Our User
-
-# Database Code
-### Saving Our Users Questions and Answers To Our Database
+- ### [Saving Our Users Questions and Answers To Our Database](https://github.com/djtoler/ChatBot--ChatGPT-AWS.Polly/blob/main/assets/mds/Saving%20Our%20Users%20Questions%20and%20Answers%20To%20Our%20Database.md)
 
 
 
