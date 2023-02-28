@@ -11,7 +11,7 @@
    
 4. While still inside the **`client`** directory, use **`npm start`** to run the frontend 
    
-5. **`cd..`** back into the root directory, then **`cd`** into the `**server**` directory and use **`npm start`** to start our backend
+5. **`cd..`** back into the root directory, then **`cd`** into the **`server`** directory and use **`npm start`** to start our backend
 ---
 
 ## Project Overview:
