@@ -34,9 +34,9 @@ We set our **`baseURL`** variable to "**[https://api.assemblyai.com/v2](https://
 
 **At line 36**, we jump into the application logic by starting with a **`useEffect`** hook to create a new instance of our *“MicRecorder”* everytime our [Recorder functional component](https://github.com/djtoler/ChatBot--ChatGPT-AWS.Polly/blob/main/client/src/Components/Recorder.js) mounts.
 
-**At line 40**, we make a function called **`startRecording`** to ****start the recording process. 
+**At line 40**, we make a function called **`startRecording`** to start the recording process. 
 
-It calls the *“start”* ****method of the *“MicRecorder*” ****instance stored in *“recorder.current**"***, and sets the state of **`isRecording`** to **`true`** if the recording starts successfully. Our **`isRecording`** state variable is used to keep track of whether a recording is currently in progress
+It calls the **`start`** method of the **`MicRecorder`** instance stored in **`recorder.current`** and sets the state of **`isRecording`** to true if the recording starts successfully. Our **`isRecording`** state variable is used to keep track of whether a recording is currently in progress
 
 ## ***Stop Recording A Question:***
 
