@@ -4,13 +4,13 @@
 
 In the [Recorder.js](https://github.com/djtoler/ChatBot--ChatGPT-AWS.Polly/blob/main/client/src/Components/Recorder.js) file, we record audio questions from our users. 
 
-![Untitled](Recording%20Our%20Users%20Question%20to%20MP3%203e76a117f9ce4c3198e2ecf953f167ee/Untitled.png)
+![frontend-chat-record-reqs](https://github.com/djtoler/ChatBot--ChatGPT-AWS.Polly/blob/main/assets/frontend-chat-record-reqs.PNG)
 
 **At line 1**, we require a npm package called **`mic-recorder-to-mp3`** to [record the speech from the users microphone](https://www.npmjs.com/package/mic-recorder-to-mp3) and at line 4, we require **`Chakra-UI`** for their [pre-built design components.](https://chakra-ui.com/)
 
 ## ***Set Variable for Using Assembly AI for Speech-To-Text Service:***
 
-![Untitled](Recording%20Our%20Users%20Question%20to%20MP3%203e76a117f9ce4c3198e2ecf953f167ee/Untitled%201.png)
+![frontend-assembly-obj](https://github.com/djtoler/ChatBot--ChatGPT-AWS.Polly/blob/main/assets/frontend-assembly-obj.PNG)
 
 **At line 7**, we create an instance of the Axios library for making HTTP requests
 
@@ -18,7 +18,7 @@ We set our **`baseURL`** variable to "**[https://api.assemblyai.com/v2](https://
 
 ## ***Initialize Our React Functional Component:***
 
-![Untitled](Recording%20Our%20Users%20Question%20to%20MP3%203e76a117f9ce4c3198e2ecf953f167ee/Untitled%202.png)
+![frontend-variables](https://github.com/djtoler/ChatBot--ChatGPT-AWS.Polly/blob/main/assets/frontend-variables.PNG)
 
 **At line 17**, we start our [Recorder functional component](https://github.com/djtoler/ChatBot--ChatGPT-AWS.Polly/blob/main/client/src/Components/Recorder.js) which will take speech from the microphone and translate it to text.
 
@@ -30,7 +30,7 @@ We set our **`baseURL`** variable to "**[https://api.assemblyai.com/v2](https://
 
 ## ***Start Recording A Question:***
 
-![Untitled](Recording%20Our%20Users%20Question%20to%20MP3%203e76a117f9ce4c3198e2ecf953f167ee/Untitled%203.png)
+![frontend-start-recording](https://github.com/djtoler/ChatBot--ChatGPT-AWS.Polly/blob/main/assets/frontend-start-recording.PNG)
 
 **At line 36**, we jump into the application logic by starting with a **`useEffect`** hook to create a new instance of our *“MicRecorder”* everytime our [Recorder functional component](https://github.com/djtoler/ChatBot--ChatGPT-AWS.Polly/blob/main/client/src/Components/Recorder.js) mounts.
 
@@ -40,7 +40,7 @@ It calls the *“start”* ****method of the *“MicRecorder*” ****instance st
 
 ## ***Stop Recording A Question:***
 
-![Untitled](Recording%20Our%20Users%20Question%20to%20MP3%203e76a117f9ce4c3198e2ecf953f167ee/Untitled%204.png)
+![frontend-stop-recording](https://github.com/djtoler/ChatBot--ChatGPT-AWS.Polly/blob/main/assets/frontend-stop-recording.PNG)
 
 **At line 40**, we make a function called stop **`stopRecording`.** 
 
