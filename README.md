@@ -3,7 +3,15 @@
 # Accessibility for Visually Impaired Users
   
 ## Running the Project:
+1. Clone the repo by running the following command: **`git clone https://github.com/djtoler/ChatBot--ChatGPT-AWS.Polly.git`**
 
+2. **`cd`** into the root directory and run **`npm install`** to install server dependencies
+
+3. **`cd`** into the **`client`** directory and run **`npm install`** to install the client dependencies
+   
+4. While still inside the **`client`** directory, use **`npm start`** to run the frontend 
+   
+5. **`cd..`** back into the root directory, then **`cd`** into the `**server**` directory and use **`npm start`** to start our backend
 ---
 
 ## Project Overview:
