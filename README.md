@@ -56,16 +56,16 @@ Speech-to-text technology converts spoken words into written text, allowing peop
 ---
 
 # Front End Code
-
+![home.png](https://github.com/djtoler/ChatBot--ChatGPT-AWS.Polly/blob/main/assets/frontend-landing-page.png)
 ---
 
 ### Front End Diagram
-
-
 ### Recording Users Question to MP3
 ### Transcribing Questions From MP3 to Text
 
 # Back End Code
+![chatserver1](https://github.com/djtoler/ChatBot--ChatGPT-AWS.Polly/blob/main/assets/backend-directory-colored_1_51.png)
+
 ### [Back End Diagram](https://github.com/djtoler/ChatBot--ChatGPT-AWS.Polly/blob/main/assets/mds/Back%20End%20Diagram.md)
 ### [Sending Our Users Text Question to OpenAI and Getting a Text Answer Back](https://github.com/djtoler/ChatBot--ChatGPT-AWS.Polly/blob/main/assets/mds/Sending%20Our%20Users%20Text%20Question%20to%20OpenAI%20and%20Getting%20a%20Text%20Answer%20Back.md)
 ### Converting Our Text Answer To MP3 and Returning It Back To Our User
